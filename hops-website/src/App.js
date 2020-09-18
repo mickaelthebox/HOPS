@@ -5,7 +5,7 @@ function App() {
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
-    }
+    };
     return (
         <div>
             <h1>{t('title')}</h1>
